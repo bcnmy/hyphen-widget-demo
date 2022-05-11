@@ -1,4 +1,4 @@
-name: Production Deployment - Hyphen UI
+name: Production Deployment - Hyphen Widget Demo
 
 on:
   push:

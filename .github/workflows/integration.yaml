@@ -1,4 +1,4 @@
-name: Integration Deployment - Hyphen UI
+name: Integration Deployment - Hyphen Widget Demo
 
 on:
   push:
