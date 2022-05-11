@@ -1082,22 +1082,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@biconomy/hyphen-staging@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@biconomy/hyphen-staging/-/hyphen-staging-1.0.2.tgz#c90236643a5aed74d7eee4b3f7453be2bfcadf01"
-  integrity sha512-yioscl1B6trYxfM8dOEeUMTKxaY4HMlglsmpjP3E53mnTRfAn+rYUKotQMl3Zen2d0zoQRImniv30LrobKNp4g==
-  dependencies:
-    "@biconomy/mexa" "^2.0.24"
-    ethers "^5.0.24"
-    promise "^8.0.3"
-    tslint "^6.1.3"
-    typescript "^4.1.3"
-
-"@biconomy/hyphen-widget@file:../hyphen-widget":
-  version "0.1.4"
+"@biconomy/hyphen-widget@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@biconomy/hyphen-widget/-/hyphen-widget-0.0.4.tgz#2bf71ab23e185d0e9c7dcc3d12905560a66e54b1"
+  integrity sha512-FBBx6+TvZ8d0wVp43ldnQmSNiuT91bbP/eJ0+n7+atQal/qgiK1BeNW2wznvUxRwkL0XvQQf1A46sslAFEQrOg==
   dependencies:
     "@apollo/client" "^3.5.7"
-    "@biconomy/hyphen-staging" "^1.0.2"
+    "@biconomy/hyphen" "^1.1.3"
     "@biconomy/mexa" "^2.0.24"
     "@walletconnect/web3-provider" "^1.6.6"
     assert "^2.0.0"
@@ -1124,6 +1115,18 @@
     stream-http "^3.2.0"
     tailwind-merge "^1.0.0"
     web3modal "^1.9.4"
+
+"@biconomy/hyphen@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@biconomy/hyphen/-/hyphen-1.1.3.tgz#a5d7873bcf94e310aebb9b67aeb19b710c3d1560"
+  integrity sha512-QdQxSs5l0wudIfPAUusDFCmXWiEGhexYUf0ZaV8frsKGSWwP6AFCAa9Nfx8sZxFZR1DmUdl75AuVxqh04rfhew==
+  dependencies:
+    "@biconomy/mexa" "^2.0.24"
+    ethers "^5.0.24"
+    node-fetch "2.6.7"
+    promise "^8.0.3"
+    tslint "^6.1.3"
+    typescript "^4.1.3"
 
 "@biconomy/mexa@^2.0.24":
   version "2.0.32"
