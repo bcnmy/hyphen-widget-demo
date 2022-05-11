@@ -4,7 +4,7 @@ import "@biconomy/hyphen-widget/dist/index.css";
 
 const wid = HyphenWidget.default.init(document.getElementById("widget"), {
   tag: "something-awesome",
-  env: "production",
+  env: "test",
 
   // Other options
   // apiKeys: {
