@@ -3,7 +3,7 @@ name: Production Deployment - Hyphen Widget Demo
 on:
   push:
     branches:
-      - feat/add-ci
+      - master
 
 jobs:
   build:
