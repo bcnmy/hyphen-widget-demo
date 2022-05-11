@@ -38,5 +38,5 @@ jobs:
       # publish to integration environment
       - name: Deploy to S3
         run: |
-          aws s3 sync build s3://${{ secrets.S3_PRODUCTION_BUCKET_NAME }}
+          aws s3 sync dist s3://${{ secrets.S3_PRODUCTION_BUCKET_NAME }}
           aws cloudfront create-invalidation --distribution-id ${{ secrets.PRODUCTION_CF_ID }} --paths /
