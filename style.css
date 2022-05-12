@@ -7,8 +7,32 @@
   margin-top: 60px;
 }
 
+.button-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#close-widget {
+  margin-left: 16px;
+}
+
+.widget-toggle-btn {
+  height: 40px;
+  width: 120px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+}
+
+.widget-toggle-btn:hover {
+  background-color: #eeeeee;
+}
+
 .widget-container {
-  height: 100vh;
+  height: calc(100vh - 80px);
   display: grid;
   place-items: center;
 }
