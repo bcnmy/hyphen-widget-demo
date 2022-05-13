@@ -1,5 +1,5 @@
 import "./style.css";
-import * as HyphenWidget from "@biconomy/hyphen-widget/dist";
+import * as HyphenWidget from "@biconomy/hyphen-widget";
 import "@biconomy/hyphen-widget/dist/index.css";
 
 const hyphenWidget = HyphenWidget.default.init(
