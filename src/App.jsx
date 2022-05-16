@@ -10,6 +10,7 @@ function App() {
       document.getElementById("widget"),
       {
         tag: "expecto-patronum",
+        env: "test",
         showWidget: true,
         showCloseButton: true,
       }
