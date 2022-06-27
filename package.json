@@ -11,6 +11,6 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
-    "@biconomy/hyphen-widget": "^0.0.6"
+    "@biconomy/hyphen-widget": "^0.0.8"
   }
 }

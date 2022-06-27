@@ -11,6 +11,18 @@ const hyphenWidget = HyphenWidget.default.init(
     showCloseButton: true,
 
     // Other options
+    // array of chain ids to specify the possible source chains. Chains not in this list will be excluded.
+    // allowedSourceChains: [5, 80001, 43113],
+    // array of chain ids to specify the possible destination chains. Chains not in this list will be excluded.
+    // allowedDestinationChains: [5, 80001],
+    // array of token symbols to specify the possible tokens. Tokens not in this list will be excluded.
+    // allowedTokens: ["USDC", "ETH"],
+    // chain id to specify the default source chain which should be selected.
+    // defaultSourceChain: 80001,
+    // chain id to specify the default destination chain which should be selected.
+    // defaultDestinationChain: 5,
+    // token symbol to specify the default token which should be selected.
+    // defaultToken: "ETH",
     // apiKeys: {
     //   // optional for gasless
     //   Ethereum: "Ethereum API Key",
