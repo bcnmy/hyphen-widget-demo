@@ -6,7 +6,7 @@ const hyphenWidget = HyphenWidget.default.init(
   document.getElementById("widget"),
   {
     tag: "something-awesome",
-    env: "production",
+    env: "test",
     showWidget: true,
     showCloseButton: true,
 
