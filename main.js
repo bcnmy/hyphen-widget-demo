@@ -9,6 +9,7 @@ const hyphenWidget = HyphenWidget.default.init(
     env: "test",
     showWidget: true,
     showCloseButton: true,
+    showGasTokenSwap: true
 
     // Other options
     // apiKeys: {
