@@ -1082,13 +1082,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@biconomy/hyphen-widget@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@biconomy/hyphen-widget/-/hyphen-widget-0.0.6.tgz#7c96ac4e7afd6a4cb8a55b225d1f005b04004bf7"
-  integrity sha512-rjKtnrkWeQ/7ykVbHWja73+/tueufvNnGfl7JDXd8nNwBn1B5hx1iUx+IdVMALhJihDdbopKDcdBRwkBEsWdxQ==
+"@biconomy/hyphen-widget@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@biconomy/hyphen-widget/-/hyphen-widget-0.0.9.tgz#33d2b49ac4a3695ff0854da52f6c14d02ff101de"
+  integrity sha512-tEUpibfmYcWILksFPf8evtCIS+DdqAHCsJYtjHBPtU41d+Ji26B6S1DtjWY2jq2g314EHtt1f9W5XG1SDLU0OA==
   dependencies:
     "@apollo/client" "^3.5.7"
-    "@biconomy/hyphen" "^1.1.3"
+    "@biconomy/hyphen" "^1.1.6"
     "@biconomy/mexa" "^2.0.24"
     "@walletconnect/web3-provider" "^1.6.6"
     assert "^2.0.0"
@@ -1116,14 +1116,14 @@
     tailwind-merge "^1.0.0"
     web3modal "^1.9.4"
 
-"@biconomy/hyphen@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@biconomy/hyphen/-/hyphen-1.1.3.tgz#a5d7873bcf94e310aebb9b67aeb19b710c3d1560"
-  integrity sha512-QdQxSs5l0wudIfPAUusDFCmXWiEGhexYUf0ZaV8frsKGSWwP6AFCAa9Nfx8sZxFZR1DmUdl75AuVxqh04rfhew==
+"@biconomy/hyphen@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@biconomy/hyphen/-/hyphen-1.1.6.tgz#f0a18a94605eb615b6b24fc4a4101f5e6442f8b3"
+  integrity sha512-xyDbqu7/j4U1AeTeWOmrR+eH3TArtOiYShPXlHonM+HPTN93T1AmnTA0Q1uOIvUa3sFmkHa6PMRLZYmEpCH9bA==
   dependencies:
     "@biconomy/mexa" "^2.0.24"
+    cross-fetch "^3.1.5"
     ethers "^5.0.24"
-    node-fetch "2.6.7"
     promise "^8.0.3"
     tslint "^6.1.3"
     typescript "^4.1.3"
