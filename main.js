@@ -1,15 +1,15 @@
-import "./style.css";
-import * as HyphenWidget from "@biconomy/hyphen-widget";
-import "@biconomy/hyphen-widget/dist/index.css";
+import './style.css';
+import * as HyphenWidget from '@biconomy/hyphen-widget';
+import '@biconomy/hyphen-widget/dist/index.css';
 
 const hyphenWidget = HyphenWidget.default.init(
-  document.getElementById("widget"),
+  document.getElementById('widget'),
   {
-    tag: "something-awesome",
-    env: "production",
+    tag: 'something-awesome',
+    env: 'production',
     showWidget: true,
     showCloseButton: true,
-
+    showGasTokenSwap: true,
     // Other options
     // apiKeys: {
     //   // optional for gasless
@@ -40,12 +40,12 @@ const hyphenWidget = HyphenWidget.default.init(
   }
 );
 
-const openWidgetBtn = document.getElementById("open-widget");
-openWidgetBtn.addEventListener("click", () => {
+const openWidgetBtn = document.getElementById('open-widget');
+openWidgetBtn.addEventListener('click', () => {
   hyphenWidget.open();
 });
 
-const closeWidgetBtn = document.getElementById("close-widget");
-closeWidgetBtn.addEventListener("click", () => {
+const closeWidgetBtn = document.getElementById('close-widget');
+closeWidgetBtn.addEventListener('click', () => {
   hyphenWidget.close();
 });
