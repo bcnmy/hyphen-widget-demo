@@ -6382,10 +6382,10 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-hyphen-widget-test@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hyphen-widget-test/-/hyphen-widget-test-0.0.1.tgz#12534685308248c507ef00dea0df1b8dec4a867c"
-  integrity sha512-zelmRWJBzxo5ilIyxTgINij/YyxDlp8O7GQYWGjTHlAi9DGzbGaEnOFqaBXuBCW9sIcQN5E4y4h+IAduN9c4wA==
+hyphen-widget-test@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hyphen-widget-test/-/hyphen-widget-test-0.0.2.tgz#e3832dabc33b6f4bce639d1f25dd3c806f42b50c"
+  integrity sha512-U4/e+73wrlBOif4trRjsMkKCA8utznuVGQludT7QM2dw2S9q6kUHREeUD6NbNVdsJPUiEndWnncBzQrJRmrCkA==
   dependencies:
     "@apollo/client" "^3.5.7"
     "@biconomy/hyphen" "^1.1.6"
