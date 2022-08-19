@@ -1,6 +1,6 @@
 import './style.css';
-import * as HyphenWidget from '@biconomy/hyphen-widget';
-import '@biconomy/hyphen-widget/dist/index.css';
+import * as HyphenWidget from 'hyphen-widget-test';
+import 'hyphen-widget-test/dist/index.css';
 
 const hyphenWidget = HyphenWidget.default.init(
   document.getElementById('widget'),
