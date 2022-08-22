@@ -11,6 +11,6 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
-    "hyphen-widget-test": "^0.0.2"
+    "hyphen-widget-test": "^0.0.3"
   }
 }
