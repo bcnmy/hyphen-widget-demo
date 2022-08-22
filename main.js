@@ -5,7 +5,7 @@ import 'hyphen-widget-test/dist/index.css';
 const hyphenWidget = HyphenWidget.default.init(
   document.getElementById('widget'),
   {
-    tag: 'something-awesome',
+    tag: 'WIDGET_DEMO',
     env: 'production',
     showWidget: true,
     showCloseButton: true,
