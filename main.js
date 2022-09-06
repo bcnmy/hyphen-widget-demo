@@ -5,8 +5,8 @@ import 'hyphen-widget-test/dist/index.css';
 const hyphenWidget = HyphenWidget.default.init(
   document.getElementById('widget'),
   {
-    tag: 'WIDGET_DEMO',
-    env: 'production',
+    tag: 'WIDGET_DEMO_TEST',
+    env: 'test',
     showWidget: true,
     showCloseButton: true,
     showGasTokenSwap: true,

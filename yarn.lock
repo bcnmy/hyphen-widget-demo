@@ -6392,6 +6392,7 @@ hyphen-widget-test@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/hyphen-widget-test/-/hyphen-widget-test-0.0.5.tgz#f24dac11f60d7654370f23bfea8e15e049d33cbb"
   integrity sha512-ShYeKUHSVvK/nlonXdMP5v9fi29fGEl9sbYEMH7WWyylkjTDi5JfbtVlODLGFIBqD/j2Px25HkzGb4/byIVNjA==
+
   dependencies:
     "@apollo/client" "^3.5.7"
     "@biconomy/hyphen" "^1.1.6"
